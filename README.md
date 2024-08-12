@@ -8,11 +8,11 @@ The script is automatically scanning and exploiting vulnerables websites from a 
 
 ## 🔎 **How to use**
 
- 1. Install latest Python version from https://python.org or from `sudo apt-get install python3 python3-pip`
- 2. Download the repository and extract it
- 3. Open terminal and type `pip/pip3 install threadpool requests`
- 4. Open terminal and type `python3 chamilio.py`
- 5. Type `python3 chamilio.py -f yoururlfile.txt -t https://yourtarget.com attack_time`
+ 1. Install the requirements with `sudo apt-get install python3 python3-pip git wget screen`
+ 2. Git clone the repository and extract it with `git clone https://github.com/dvtarsoul/ChExp && cd ChExp`
+ 3. Type `pip/pip3 install threadpool requests`
+ 4. Now type `python3 chamilio.py`
+ 5. Type `python3 chamilio.py -f url.txt -t https://yourtarget.com attack_time` and replace https://yourtarget.com and attack_time
 
 ## 📝 **Commands**
 
